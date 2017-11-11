@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Cadastro de Fornecedor</title>
+  <link rel="stylesheet" href="pagina2.css">
+</head>
+<body>
+  <div class="div-imagemTopo"> <img class="imgtopo" src= "banner_fornecedor.jpg"> </div>
+  <div id="menu">
+    <ul>
+      <li class="home">
+        <a href="#">Home</a>
+      </li>
+      <li class="cadastroF">
+        <a href="#">Cadastro de Fornecedor </a>
+      </li>
+    </ul>
+  </div>
+      <div class="formulario">
+        <form class="form_cadastro" action="index.html" method="post">
+        <div class="div-cadastro">
+          <label> Razão Social/Nome </label> <input type="text" name="Nome" placeholder="Insira a Razão Social"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Nome Fantasia </label><input type="text" name="NomeFantasia"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> CNPJ </label><input type="text" name="cnpj"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Endereço </label> <input type="text" name="Endereço"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> UF </label><input type="text" name="estado"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Cidade </label><input id="inputCidade" type="text" name="cidade"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> E-mail </label><input id="inputEmail" type="text" name="email"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Telefone </label><input type="text" name="telefone"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Site </label><input type="text" name="site"> </input>
+        </div>
+        <div class="div-cadastro">
+          <label> Categoria </label><select name="categoria"> <option select value="Material de Escritório"> Material de Escritório </select>
+        </div>
+        <div class="div-cadastro">
+          <label> Senha de Acesso </label> <input type="password" name="criarSenha"> </input>
+        </div>
+        <div class="div-cadastro">
+          <input id="botao_cadastrar" type="submit" name="botao_cadastrar" value="Confirmar"> </input>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
