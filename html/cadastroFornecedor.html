@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Cadastrar Fornecedor </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <style media="screen">
+      .img1{
+        padding-left: 12%;
+      }
+      h5{
+        padding: 0 0 14px 11px;
+      }
+      form {
+        width: 70%;
+        padding-bottom: 4px;
+      }
+      .parte_1 {
+        float: left;
+      }
+      .parte_2 {
+        float: right;
+      }
+      .camposObrigatórios{
+        float: right;
+      }
+      #escolha{
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img1">
+      <h1 align="center"> Espaço para imagem</h1>
+    </div>
+    <div class="barra">
+      <ul class="breadcrumb">
+        <li><a href="#"> Início </a> <span class="divider">/</span></li>
+        <li class="active"> Cadastro de Fornecedor </li>
+      </ul>
+    </div>
+    <h5>  Se você é um fornecedor e tem interesse em trabalhar conosco, preencha o formulário abaixo e aguarde o nosso retorno! </h5>
+    <form class="form-horizontal">
+      <div class="parte_1">
+        <div class="control-group">
+          <label class="control-label"> Razão Social <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> CNPJ <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Nome Fantasia <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Responsável <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Endereço <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Suas categorias: <span>*</span></label>
+        <div id="escolha" class="controls">
+          <div class="container-fluid">
+             <div class="row">
+               <div class="col-md-12">
+                  <a id="modal-766383" href="#modal-container-766383" role="button" class="btn" data-toggle="modal"> Escolher sua(s) categoria(s) <i class="icon-list-alt"> </i></a>
+                 <div class="modal fade" id="modal-container-766383" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-body">
+                         <div class="categorias">
+                           <h5> Para concluir, escolha as suas categorias. Não se preocupe, elas poderão ser alteradas posteriormente! </h5>
+                             <table class="table table-hover">
+                               <tbody>
+                                 <tr>
+                                   <td> <b> Nome da Categoria </b></td>
+                                   <td> <b> Selecione</b></td>
+                                 </tr>
+                                 <tr>
+                                   <td> Material de Escritório </td>
+                                   <td> <input type="checkbox" name="" value=""> </td>
+                                 </tr>
+                               </tbody>
+                              </table>
+                            </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">
+                           Cancelar
+                         </button>
+                         <button type="button" class="btn btn-primary">
+                           Salvar
+                         </button>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="parte_2">
+        <div class="control-group">
+          <label class="control-label"> Cidade <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Estado <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Telefone <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Site </label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Email <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label"> Senha para acesso <span>*</span></label>
+          <div class="controls">
+            <input type="text" >
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="camposObrigatórios">
+            <p> Campos Obrigatórios (*) </p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div id="botoes" class="controls">
+            <button type="submit" class="btn btn-primary"> Confirmar </button>
+            <button type= "button" class="btn btn-primary"> Cancelar </button>
+          </div>
+        </div>
+
+
+    </form>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+

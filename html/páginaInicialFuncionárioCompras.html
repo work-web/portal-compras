@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Página Inicial - Funcionário </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <style media="screen">
+      .img1{
+        width: 100%;
+        height: 150px;
+        background-color: #0a1c80;
+      }
+      .opcoes-menu{
+        margin: 90px 3px 10px 6px;
+        display: inline-block;
+        width: 230px;
+        height: 150px;
+        text-align: center;
+        background-color: #1c1f3873;
+        border-radius: 20px;
+      }
+      .opcoes-funcionario{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+
+      .div_opt{
+        padding-top: 8%;
+      }
+      .btn-group{
+        float: right;
+        padding-right: 8px;
+      }
+      .i{
+        color: white;
+      }
+      .div-img{
+        padding-bottom: 15px;
+      }
+      .logo{
+        text-align: center;
+        margin: 40px auto 0 40%;
+        display: inline-block;
+        background-color: #0600f1b3;
+        border-radius: 4px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="img1">
+      <div class="logo">
+        <h5> LOGO DA EMPRESA </h5>
+      </div>
+    </div>
+    <div class="barra">
+      <ul class="breadcrumb">
+        <li><a href="#"> Início </a> <span class="divider">/</span></li>
+        <li class="active"> Página Inicial - Funcionário </li>
+      </ul>
+    </div>
+    <div class="btn-group">
+      <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> Minha Conta </a>
+      <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-pencil"></i> Configurar Perfil </a></li>
+        <li><a href="#"><i class="icon-off"></i> Sair </a></li>
+      </ul>
+    </div>
+    <br>
+    <div class="opcoes-funcionario">
+      <div class="opcoes-menu">
+        <div class="div_opt">
+          <div class="div-img">
+            <a href="#"> <img class="img-rounded" src="visualizar.png" alt="" width="80px"> </a>
+          </div>
+          <a href="#" class="i"> Visualizar Pedidos </a>
+        </div>
+      </div>
+      <div class="opcoes-menu">
+        <div class="div_opt">
+          <div class="div-img">
+            <a href="#"> <img class="img-rounded" src="adicionar.png" alt="" width="80px"> </a>
+          </div>
+          <a href="#" class="i"> Enviar Pedido </a>
+        </div>
+      </div>
+      <div class="opcoes-menu">
+        <div class="div_opt">
+          <div class="div-img">
+            <a href="#"> <img class="img-rounded" src="icon.png" alt="" width="80px"> </a>
+          </div>
+          <a href="#" class="i"> Consultar Fornecedores </a>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

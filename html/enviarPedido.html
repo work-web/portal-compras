@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Enviar Pedido </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <style media="screen">
+      .img1{
+        padding-left: 12%;
+      }
+      #add-cesta{
+        width: 220px;
+        text-align: center;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img1">
+      <img src="i.png" >
+    </div>
+    <div class="barra">
+      <ul class="breadcrumb">
+        <li><a href="#">Início</a> <span class="divider">/</span></li>
+        <li><a href="#">Pedido</a> <span class="divider">/</span></li>
+        <li class="active"> Envio de Pedido </li>
+      </ul>
+    </div>
+    <div class="form_enviarPedido">
+      <form class="form-horizontal">
+        <div class="control-group">
+          <label class="control-label">Produto</label>
+          <div class="controls">
+            <input type="text" id="inputProd" placeholder="Nome do Produto">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label">Unidade</label>
+          <div class="controls">
+            <input type="text" id="inputProd" placeholder="Unidade do Produto">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls"  id="add-cesta">
+            <a href="#"> <img class="img-rounded" src="add.jpg" alt="" width="40px"> </a>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label">Pedido: </label>
+          <div class="controls">
+            <textarea name="name" rows="8" cols="80" readonly="true"></textarea>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <button type="submit" class="btn btn-primary">Finalizar Pedido</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
