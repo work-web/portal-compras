@@ -16,14 +16,5 @@ public class Login {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
-	}
-	
-	public boolean validarLoginSenha(String login, String senha) {
-		if(login.equalsIgnoreCase("admin") && senha.equalsIgnoreCase("admin")) {
-			return true;
-		} else {
-			return false;
-		}
-		
-	}
+	}	
 }
